@@ -1,0 +1,78 @@
+
+
+#encabezado{
+    position: static;
+    text-align: center;
+    top: 0;
+    left: 150px;
+    height: 8%;
+    width: 100%;
+    background-color: aquamarine;
+    color: black;
+}
+
+#encabezado h1 {
+    display: inline
+}
+
+h2{
+    text-align: center;
+
+}
+
+
+#menu {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: lightblue;
+    color: white;
+
+}
+
+#menu a {
+    background-color: white;
+    color: black;
+}
+
+#menu a:hover {
+    background-color: green;
+    color: white;
+}
+
+#barralateral {
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 81%;
+    width: 20%;
+    background-color: #00FFA0;
+    padding: 10px;
+}
+
+#contenido {
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    height: 81%;
+    width: 80%;
+    background-color: aquamarine;
+    padding: 10px;
+    overflow: auto
+
+}
+
+
+
+
+#piepagina {
+    position: absolute;
+    bottom:  0;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: cornsilk;
+    text-align: center;
+}
